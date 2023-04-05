@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
+import Layout from "../layout/Layout";
 const AboutUs = () => {
   return (
-    <div>
+    <Layout>
       <p>About Us</p>
-      <Link to="/">Home</Link>
-    </div>
+    </Layout>
   );
 };
 
