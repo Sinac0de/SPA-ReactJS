@@ -1,11 +1,7 @@
 import Layout from "../layout/Layout";
 
 const NotFound = () => {
-  return (
-    <Layout>
-      <p>Not Found!</p>
-    </Layout>
-  );
+  return <p>Not Found!</p>;
 };
 
 export default NotFound;
