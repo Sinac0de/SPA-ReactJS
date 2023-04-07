@@ -20,6 +20,9 @@ header {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 0;
-  background-color: rgb(217, 214, 255);
+  background-color: rgb(209, 209, 209);
 }
