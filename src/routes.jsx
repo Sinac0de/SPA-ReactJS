@@ -11,7 +11,7 @@ const routes = [
   { path: "/blogs", component: BlogPage },
   { path: "/About-us", component: AboutUs },
   { path: "/Profile", component: Profile },
-  { path: "/post/:id?", component: PostPage },
+  { path: "/post/:id([0-9]+)?", component: PostPage },
   { component: NotFound },
   { path: "/", component: HomePage, exact: true },
   //we could also use path="*" for Not-Found
