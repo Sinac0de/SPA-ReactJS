@@ -29,3 +29,13 @@ footer {
   padding: 20px 0;
   background-color: rgb(209, 209, 209);
 }
+
+.aside {
+  display: flex;
+  background-color: rgb(152, 170, 255);
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
