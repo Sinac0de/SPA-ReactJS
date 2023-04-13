@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 const SideBar = () => {
   return (
     <aside>
-      <ul>
+      <ul className="aside">
         <li>
           <Link to="/profile/dashboard">Dashboard</Link>
         </li>
