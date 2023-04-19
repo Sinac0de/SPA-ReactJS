@@ -4,12 +4,18 @@ const SideBar = () => {
     <aside>
       <ul className="aside">
         <li>
-          <NavLink to="/profile/dashboard" activeClassName="activeTab">
+          <NavLink
+            to="/profile/dashboard"
+            className={(navData) => (navData.isActive ? "activeTab" : "")}
+          >
             Dashboard
           </NavLink>
         </li>
         <li>
-          <NavLink to="/profile/downloads" activeClassName="activeTab">
+          <NavLink
+            to="/profile/downloads"
+            className={(navData) => (navData.isActive ? "activeTab" : "")}
+          >
             Downloads
           </NavLink>
         </li>
