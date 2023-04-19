@@ -7,13 +7,13 @@ import PostPage from "./pages/PostPage";
 import Profile from "./pages/Profile";
 
 const routes = [
-  { path: "/blogs/:id", component: Blog },
-  { path: "/blogs", component: BlogPage },
-  { path: "/About-us", component: AboutUs },
-  { path: "/Profile", component: Profile },
-  { path: "/post/:id([0-9]+)?", component: PostPage },
-  { path: "/", component: HomePage, exact: true },
-  { component: NotFound },
+  { path: "/blogs/:id", element: <Blog /> },
+  { path: "/blogs", element: <BlogPage /> },
+  { path: "/About-us", element: <AboutUs /> },
+  { path: "/Profile", element: <Profile /> },
+  { path: "/post/:id([0-9]+)?", element: <PostPage /> },
+  { path: "/", element: <HomePage /> },
+  { element: <NotFound /> },
   //we could also use path="*" for Not-Found
 ];
 
