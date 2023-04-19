@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
 import routes from "./routes";
 import "./App.css";
@@ -7,11 +7,11 @@ function App() {
   return (
     <Layout>
       {/* check for urls with switch */}
-      <Switch>
+      <Routes>
         {routes.map((route) => (
           <Route {...route} />
         ))}
-      </Switch>
+      </Routes>
     </Layout>
   );
 }
