@@ -10,7 +10,7 @@ const routes = [
   { path: "/blogs/:id", element: <Blog /> },
   { path: "/blogs", element: <BlogPage /> },
   { path: "/About-us", element: <AboutUs /> },
-  { path: "/Profile", element: <Profile /> },
+  { path: "/Profile/*", element: <Profile /> },
   { path: "/post/:id([0-9]+)?", element: <PostPage /> },
   { path: "/", element: <HomePage /> },
   { element: <NotFound /> },
